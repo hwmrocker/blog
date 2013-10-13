@@ -1,0 +1,29 @@
+---
+layout: post
+title: "How to cope with memoryleaks in python clibs"
+date: 2013-03-19
+comments: false
+tags:
+ - programming
+ - Python
+---
+
+I had to cope now a few times with some python libs that had some memory leaks. The only way to use it often was to kill the script from time to time and start it again when it was not finished.
+
+{% highlight bash %}
+while python somescript.py; do sleep 1; done
+{% endhighlight %}
+
+{% highlight python %}
+for user_id in d.getUsers():
+    filen = "out/%s.png" % user_id
+    if os.path.exists(filen):
+        continue
+    i += 1
+    if i > 20:
+        exit(0) # we are not done yet
+    # ... build the figure      
+    fig.savefig(filen, dpi=300)
+print "done..."
+exit(1)
+{% endhighlight %}
