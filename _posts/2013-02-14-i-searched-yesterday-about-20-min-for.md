@@ -3,7 +3,7 @@ layout: post
 title: "googles movie timetable"
 date: 2013-02-14
 comments: false
-tags:
+categories:
  - movies
  - Google
 ---

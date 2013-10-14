@@ -3,7 +3,7 @@ layout: post
 title: "install sphere camera on CM 10.1 galaxy S3"
 date: 2013-06-28
 comments: false
-tags:
+categories:
  - cyanogenmod
  - sphere cam
  - android

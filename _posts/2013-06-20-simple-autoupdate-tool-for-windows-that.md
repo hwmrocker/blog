@@ -3,7 +3,7 @@ layout: post
 title: "ninite - a simple autoupdate tool for windows ..."
 date: 2013-06-20
 comments: false
-tags:
+categories:
  - windows
 ---
 

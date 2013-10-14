@@ -3,7 +3,7 @@ layout: post
 title: "save edited file in vim as root"
 date: 2013-06-28
 comments: false
-tags:
+categories:
  - vim
  - linux
 ---

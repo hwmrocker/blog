@@ -3,7 +3,7 @@ layout: post
 title: "Download all photos of my Picasa web album"
 date: 2013-01-03
 comments: false
-tags:
+categories:
  - picasa
  - download
  - Google

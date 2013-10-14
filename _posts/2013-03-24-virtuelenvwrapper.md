@@ -3,7 +3,7 @@ layout: post
 title: "virtuelenvwrapper"
 date: 2013-03-24
 comments: false
-tags:
+categories:
  - virtualenv
  - linux
  - programming

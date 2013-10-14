@@ -3,7 +3,7 @@ layout: post
 title: "increase the inotify max user limit"
 date: 2013-03-19
 comments: false
-tags:
+categories:
  - inotify
  - linux
  - ubuntu

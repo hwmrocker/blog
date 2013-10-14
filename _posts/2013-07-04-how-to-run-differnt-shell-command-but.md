@@ -3,7 +3,7 @@ layout: post
 title: "How to run a differnt shell command but with the same parameters"
 date: 2013-07-04
 comments: false
-tags:
+categories:
  - linux
  - bash
 ---

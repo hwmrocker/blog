@@ -3,7 +3,7 @@ layout: post
 title: "Install Cyanogenmod on Samsung Galaxy S3 from Ubuntu"
 date: 2012-12-25
 comments: false
-tags:
+categories:
  - cyanogenmod
  - linux
  - android

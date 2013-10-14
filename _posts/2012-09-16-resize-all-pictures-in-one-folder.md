@@ -3,7 +3,7 @@ layout: post
 title: "Resize all pictures in one folder"
 date: 2012-09-16
 comments: false
-tags:
+categories:
  - linux
  - cli
  - image magick
