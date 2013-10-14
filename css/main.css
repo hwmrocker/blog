@@ -165,3 +165,20 @@ ul.posts span {
 .right {
   float: right;
 }
+
+ul.tagcloud {
+  list-style: none;
+  text-align: justify;
+}
+.tagcloud li {
+  display: inline-block;
+  margin: 0 2px 2px 0;
+  height: 22px;
+  padding: 2px;
+  vertical-align: middle;
+}
+.tag {
+  background: #ccc;
+  border-radius: 3px;
+
+}

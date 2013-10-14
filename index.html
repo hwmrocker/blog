@@ -4,14 +4,16 @@ title: Your New Jekyll Site
 ---
 
 <div id="home">
-  {% for category in site.categories %}
-      <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
-          <a href="/{{ category | first | slugize }}/">
-              {{ category | first }}
-          </a>
+  <ul class="tagcloud">
+    {% for category in site.categories %}
+      <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%" class="tag">
+        <a href="/{{ category | first | slugize }}/">
+          {{ category | first }}
+        </a>
       </li>
-  {% endfor %}
-  <h1>Paginated Blog Posts</h1>
+    {% endfor %}
+  </ul>
+  <h1>Blog Posts</h1>
   <div class="post">
     {% for post in paginator.posts %}
       <h2><small class="meta">{{ post.date | date_to_string }}</small> {{ post.title }}</h2>
