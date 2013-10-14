@@ -7,7 +7,6 @@ categories:
  - virtualenv
  - linux
  - programming
- - workon
  - Python
  - ubuntu
 ---
