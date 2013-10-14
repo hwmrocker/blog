@@ -9,7 +9,7 @@ cats = [
     "food",
     "google",
     "image magick",
-    "index",
+    "indexing",
     "inotify",
     "linux",
     "little helpers",

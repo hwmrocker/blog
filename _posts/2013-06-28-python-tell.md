@@ -4,9 +4,9 @@ title: "python tell"
 date: 2013-06-28
 comments: false
 categories:
- - index
  - Python
  - pitfalls
+ - indexing
 ---
 
 Maybe you think that both examples would produce the same output, but the tell of the filehandler will give you a wrong output in the first version. This version is a bit faster but in this case also a bit inaccurate.
