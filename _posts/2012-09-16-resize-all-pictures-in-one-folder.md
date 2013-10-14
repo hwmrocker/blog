@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Resize all pictures in one folder"
+title: "Resize all pictures in one folder in place"
 date: 2012-09-16
 comments: false
 categories:
