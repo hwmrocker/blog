@@ -11,6 +11,7 @@ cats = [
     "image magick",
     "indexing",
     "inotify",
+    "jekyll",
     "linux",
     "little helpers",
     "movies",
