@@ -5,10 +5,12 @@ title: Your New Jekyll Site
 
 <div id="home">
   <ul class="tagcloud">
-    {% for category in site.categories %}
-      <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%" class="tag">
-        <a href="/posts-about/{{ category | first | slugize }}/">
-          {{ category | first }}
+    {% capture cat_list %}{% for cat in site.categories %}{{ cat | first }}{% if forloop.last != true%}|{% endif %}{% endfor %}{% endcapture %}
+    {% assign sorted_cats = cat_list | split:'|' |  sort %}
+    {% for catname in sorted_cats %}
+      <li style="font-size: {{ site.categories[catname] | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%" class="tag">
+        <a href="/posts-about/{{ catname | slugize }}/">
+          {{ catname }}
         </a>
       </li>
     {% endfor %}
