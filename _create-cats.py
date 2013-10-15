@@ -34,10 +34,8 @@ template = """---
 layout: default
 title: Your New Jekyll Site
 ---
-
 <div id="home">
-  <h1>%(catname)s Blog Posts</h1>
-
+  <h2>Blog Posts about %(catname)s</h2>
   <ul class="posts">
   {%% for post in site.categories["%(catname_raw)s"] %%}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -45,9 +43,8 @@ title: Your New Jekyll Site
   </ul>
 </div>"""
 
-
 for cat in cats:
     os.system('mkdir -p "posts-about/%s"' % cat)
     with open("posts-about/%s/index.html" % cat, 'w') as fh:
         fh.write(template % {"catname": cat.title(), "catname_raw":cat})
-    os.system('git add "%s"'%cat)
+    os.system('git add "posts-about/%s"'%cat)
