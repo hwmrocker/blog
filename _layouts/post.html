@@ -8,6 +8,16 @@ layout: default
   {{ content }}
 </div>
 
+<ul class="tagcloud">
+  {% for category in page.categories %}
+    <li class="tag">
+      <a href="/{{ category | slugize }}/">
+        {{ category }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
 <div id="page-navigation" class="footer">
   <div class="clear">&nbsp;</div>
   <div class="left">

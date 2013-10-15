@@ -3,7 +3,7 @@
 /* Common
 /*
 /*****************************************************************************/
-
+@import url(http://fonts.googleapis.com/css?family=Offside);
 /* Global Reset */
 * {
   margin: 0;
@@ -20,9 +20,23 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%;
+  font-family: 'Offside', cursive;
+}
 
-h1 { margin-bottom: 1em; }
+h1 {
+  margin-bottom: 1em;
+  font-size: 200%;
+}
+h2 {
+  font-size: 150%;
+}
+h3 {
+  font-size: :120%;
+}
+h4 {
+  font-size: 110%;
+}
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -93,6 +107,10 @@ ul.posts span {
 .site .meta {
   color: #aaa;
 }
+
+.meta a         { color: #aaa; }
+.meta a:hover   { color: #ccc; }
+.meta a:visited { color: #666; }
 
 .site .footer {
   font-size: 80%;
@@ -170,16 +188,20 @@ ul.posts span {
 ul.tagcloud {
   list-style: none;
   text-align: justify;
+  margin-bottom: 1em;
 }
 .tagcloud li {
   display: inline-block;
+}
+.tag {
+  background: #ccc;
+  border-radius: 3px;
   margin: 0 2px 2px 0;
   height: 22px;
   padding: 2px;
   vertical-align: middle;
 }
-.tag {
-  background: #ccc;
-  border-radius: 3px;
 
+hr {
+  margin-bottom: 1em;
 }
