@@ -4,8 +4,8 @@ title: "Setup aplications specific passwords"
 date: 2013-07-02
 comments: false
 categories:
- - settings
  - Google
+ - settings
 ---
 
 I googled so many times for this now.

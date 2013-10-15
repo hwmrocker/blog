@@ -4,9 +4,9 @@ title: "xmacro on Ubuntu"
 date: 2013-06-28
 comments: false
 categories:
- - xmacro
  - linux
  - ubuntu
+ - xmacro
  - little helpers
 ---
 

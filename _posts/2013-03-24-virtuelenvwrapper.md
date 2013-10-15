@@ -4,11 +4,11 @@ title: "virtuelenvwrapper"
 date: 2013-03-24
 comments: false
 categories:
- - virtualenv
- - linux
  - programming
- - Python
+ - linux
  - ubuntu
+ - Python
+ - virtualenv
 ---
 
 

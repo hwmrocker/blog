@@ -4,9 +4,9 @@ title: "increase the inotify max user limit"
 date: 2013-03-19
 comments: false
 categories:
- - inotify
  - linux
  - ubuntu
+ - inotify
 ---
 
     sudo vi /etc/sysctl.conf

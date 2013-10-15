@@ -4,9 +4,9 @@ title: "install sphere camera on CM 10.1 galaxy S3"
 date: 2013-06-28
 comments: false
 categories:
+ - android
  - cyanogenmod
  - sphere cam
- - android
 ---
 
 1. get the [zip file][file] from [here][file]
