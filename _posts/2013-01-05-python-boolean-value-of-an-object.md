@@ -4,9 +4,9 @@ title: "Python boolean value of an object"
 date: 2013-01-05
 comments: false
 categories:
- - Python 2
  - programming
  - Python
+ - Python 2
 ---
 This is helpfull if want to use Mock-objects in Case an Object is not available, but still want to know if a real object is available or not. I found the [solution][link] at [stackoverflow][link].
 
