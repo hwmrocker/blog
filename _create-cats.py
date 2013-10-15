@@ -16,6 +16,7 @@ cats = [
     "movies",
     "picasa",
     "pitfalls",
+    "privacy",
     "programming",
     "python 2",
     "python",
