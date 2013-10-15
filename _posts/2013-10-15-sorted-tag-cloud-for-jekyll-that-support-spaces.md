@@ -1,5 +1,5 @@
 ---
-title: "Sorted tag cloud that support spaces"
+title: "Sorted tag cloud for jekyll that support spaces"
 layout: post
 categories:
  - jekyll
