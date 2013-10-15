@@ -45,8 +45,9 @@ title: Your New Jekyll Site
   </ul>
 </div>"""
 
+
 for cat in cats:
-    os.system('mkdir -p "%s"' % cat)
-    with open("%s/index.html" % cat, 'w') as fh:
+    os.system('mkdir -p "posts-about/%s"' % cat)
+    with open("posts-about/%s/index.html" % cat, 'w') as fh:
         fh.write(template % {"catname": cat.title(), "catname_raw":cat})
     os.system('git add "%s"'%cat)

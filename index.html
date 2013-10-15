@@ -7,7 +7,7 @@ title: Your New Jekyll Site
   <ul class="tagcloud">
     {% for category in site.categories %}
       <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%" class="tag">
-        <a href="/{{ category | first | slugize }}/">
+        <a href="/posts-about/{{ category | first | slugize }}/">
           {{ category | first }}
         </a>
       </li>
