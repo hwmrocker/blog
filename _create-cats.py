@@ -1,36 +1,21 @@
+#!/usr/bin/env python
 import os
-cats = [
-    "android",
-    "autojump",
-    "bash",
-    "cli",
-    "cyanogenmod",
-    "download",
-    "food",
-    "google",
-    "image magick",
-    "indexing",
-    "inotify",
-    "jekyll",
-    "linux",
-    "little helpers",
-    "movies",
-    "picasa",
-    "pitfalls",
-    "privacy",
-    "programming",
-    "python 2",
-    "python",
-    "sed",
-    "settings",
-    "sphere cam",
-    "staatstrojaner",
-    "ubuntu",
-    "vim",
-    "virtualenv",
-    "windows",
-    "xmacro",
-]
+
+template = """---
+layout: none
+---
+{% for cat in site.categories %}{{ cat | first }}
+{% endfor %}
+"""
+with open("deletme.html", "w") as fh:
+    fh.write(template)
+
+os.system("jekyll build")
+with open("_site/deletme.html") as fh:
+    cats = sorted([c.strip() for c in fh.readlines() if c.strip()])
+
+#clean up again
+os.system("rm _site/deletme.html deletme.html")
 
 template = """---
 layout: default
