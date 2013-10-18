@@ -5,7 +5,7 @@ categories:
  - jekyll
 ---
 
-Tobias Sjösten wrote [a nice article] about how to create a tag cloud in jekyll without using any plugin. But one thing bothered me a little. The tags came in the order, how they where introdouced in the blog posts. I wanted them to be sorted alphabetically.
+Tobias Sjösten wrote [a nice article][link] about how to create a tag cloud in jekyll without using any plugin. But one thing bothered me a little. The tags came in the order, how they where introdouced in the blog posts. I wanted them to be sorted alphabetically.
 
 On stackoverflow was a [solution][so] to iterate over an hash ordered by its keys. I improved it a little, so we can use spaces and underscores and mixed them together.
 
