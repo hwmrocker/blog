@@ -1,0 +1,15 @@
+
+  <div class="icons left">
+    <a href="http://twitter.com/intent/tweet?url={{site.url}}{{include.param.url}}" class="tw"><i class="icon-twitter"></i></a>
+    <a href="http://facebook.com/sharer.php?u={{site.url}}{{include.param.url}}" class="fb"><i class="icon-facebook"></i></a>
+    <a href="https://plus.google.com/share?url={{site.url|uri_escape}}{{include.param.url|uri_escape}}" class="gp"><i class="icon-google-plus"></i></a>
+  </div>
+  <ul class="tagcloud right">
+    {% for category in include.param.categories %}
+      <li class="tag">
+        <a href="/posts-about/{{ category | slugize }}/">
+          {{ category }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>

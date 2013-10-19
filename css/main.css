@@ -147,6 +147,12 @@ ul.posts span {
 /*****************************************************************************/
 
 /* standard */
+.post:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -184,6 +190,12 @@ ul.posts span {
 }
 .right {
   float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 ul.tagcloud {
@@ -224,7 +236,6 @@ hr {
   display: inline-block;
   color: white;
   text-decoration: none;
-  margin: 10px;
   border-radius: 8px;
   position: relative;
   padding: 0;

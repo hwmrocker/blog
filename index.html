@@ -5,7 +5,7 @@ title: Your New Jekyll Site
 
 <div id="home">
   <ul class="tagcloud">
-    {% capture cat_list %}{% for cat in site.categories %}{{ cat | first }}{% if forloop.last != true%}|{% endif %}{% endfor %}{% endcapture %}
+    {% capture cat_list %}{% for cat in site.categories %}{{ cat | first }}{% if forloop.last != true %}|{% endif %}{% endfor %}{% endcapture %}
     {% assign sorted_cats = cat_list | split:'|' |  sort %}
     {% for catname in sorted_cats %}
       <li style="font-size: {{ site.categories[catname] | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%" class="tag">
@@ -16,16 +16,14 @@ title: Your New Jekyll Site
     {% endfor %}
   </ul>
   <h2>Blog Posts</h1>
-  <div class="post">
+  <div class="posts">
     {% for post in paginator.posts %}
       <h3><small class="meta"><a href="{{ post.url }}">{{ post.date | date_to_string }}</a></small> {{ post.title }}</h2>
 
       <div class="post">
-      {{ post.content }}
-      <div class="icons">Share if you liked this post
-        <a href="http://twitter.com/intent/tweet?url={{site.url}}{{post.url}}" class="tw"><i class="icon-twitter"></i></a>
-        <a href="http://facebook.com/sharer.php?u={{site.url}}{{post.url}}" class="fb"><i class="icon-facebook"></i></a>
-        <a href="https://plus.google.com/share?url={{site.url|uri_escape}}{{post.url|uri_escape}}" class="gp"><i class="icon-google-plus"></i></a>
+        {{ post.content }}
+        {% include blogpost.html param=post %}
+
       </div>
       <hr>
     {% endfor %}
