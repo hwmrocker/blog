@@ -19,7 +19,7 @@ os.system("rm _site/deletme.html deletme.html")
 
 template = """---
 layout: default
-title: Your New Jekyll Site
+title: Posts about %(catname)s | blog.gladis.org
 ---
 <div id="home">
   <h2>Blog Posts about %(catname)s</h2>
