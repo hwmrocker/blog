@@ -11,7 +11,7 @@ I had a bad feeling when i first read that cisco found a loop hole in the licens
 
 Now we should trust cisco that they will not [install any back door][l3] [in the binary][l2] [blobs for the][l1] [nsa][gl]. Even if there is no back door and the people start to use the patent infected algorithm and cisco decides to stop to pay for the fees, what will happen.
 
-As [fefe][fefe] mention in his [blog post] it will also destroy the competion for the best/fastest h.264 implementation.
+As [fefe][fefe] mention in his [blog post][fefe] it will also destroy the competion for the best/fastest h.264 implementation.
 
 You might also read the [blog post of monty][xiph] the guy behind ogg vorbis and daala.
 
