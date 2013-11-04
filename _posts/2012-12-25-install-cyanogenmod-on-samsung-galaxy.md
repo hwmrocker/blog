@@ -30,7 +30,7 @@ Download the following files
 - [heimdall](http://www.glassechidna.com.au/products/heimdall/)
 - [clockworkmod rommanager](http://www.clockworkmod.com/rommanager)
 - [cyanogenmod rom](http://get.cm/?device=i9300)
-- [google apps](http://wiki.cyanogenmod.com/index.php?title=Latest_Version/Google_Apps "Latest_Version/Google_Apps")
+- [google apps](http://wiki.cyanogenmod.org/w/Google_Apps "Google_Apps")
 
 
 ### Install the rom manager
