@@ -18,3 +18,7 @@ If you want to change multiple files in place, just use mogrify:
 You can even chose the background color as text `-background black` or hex value `-background "#333"` or `-background "#fefefe"`. You have to set the background before you flatten the image.
 
     convert card.png -background "#aaa" -flatten card-gray.png
+
+I found the [solution][link] to this problem on [stackoverflow][link].
+
+[link]: http://stackoverflow.com/questions/2322750/replace-transparency-in-png-images-with-white-background
