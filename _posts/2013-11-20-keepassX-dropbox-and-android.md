@@ -8,7 +8,7 @@ categories:
  - passwords
 ---
 
-You might heard of the resent hack on Adobe where millions of bad encrypted passwords where stolen and leaked. If not just [goole "password leak"][link] and you can see that this happens quite often.
+You might heard of the resent hack on Adobe where millions of bad encrypted passwords where stolen and leaked. If not just [google "password leak"][link] and you can see that this happens quite often.
 
 Those people who reuse there password are now in great danger. Everybody could now check for a specific email address, get the password and try to login to facebook or gmail. That made me think. I also used to reuse a lot of passwords. I have to log in to about 40 different accounts per week and i cannot, or just don't want to remember 40 different passwords.
 
