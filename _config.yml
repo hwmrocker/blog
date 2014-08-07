@@ -2,6 +2,6 @@ name: blog.gladis.org
 description: Stuff I don't want to look up anymore
 url: http://blog.gladis.org
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 paginate: 10
 paginate_path: "/page:num"
