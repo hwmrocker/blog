@@ -224,6 +224,7 @@ hr {
 .icons {
   margin: 0 auto;
   padding: 0;
+  margin-bottom: 1em;
 }
 .icons i {
   display: block;
