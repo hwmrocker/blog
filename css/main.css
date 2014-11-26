@@ -168,6 +168,9 @@ ul.posts span {
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
+}
+
+.post p code {
   padding: 0 .2em;
 }
 
