@@ -1,0 +1,12 @@
+---
+layout: default
+title: Posts about Python3 | blog.gladis.org
+---
+<div id="home">
+  <h2>Blog Posts about Python3</h2>
+  <ul class="posts">
+  {% for post in site.categories["python3"] %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
