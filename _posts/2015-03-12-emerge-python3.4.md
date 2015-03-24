@@ -10,6 +10,7 @@ categories:
 insert the following line into /etc/make.conf
 
     PYTHON_ABIS="2.7 3.4"
+    PYTHON_SINGLE_TARGET="python3_4"
 
 and unmask python 3.4, either with 
 
@@ -21,3 +22,5 @@ or just edit the /etc/portage/package.unmask and insert the line your self
 then update your world
 
     emerge -auDN @world
+
+[Update:] added `PYTHON_SINGLE_TARGET` to make.conf
