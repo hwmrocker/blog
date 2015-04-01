@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/hwmrocker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blog.gladis.org
+  * I am hwmrocker (https://keybase.io/hwmrocker) on keybase.
+  * I have a public key with fingerprint 3D54 D870 C32B 4778 2FF5  71B3 94DB A9BC 6517 8870
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "3d54d870c32b47782ff571b394dba9bc65178870",
+            "host": "keybase.io",
+            "key_id": "94DBA9BC65178870",
+            "uid": "80777337e55315447529af6e02545419",
+            "username": "hwmrocker"
+        },
+        "merkle_root": {
+            "ctime": 1427911035,
+            "hash": "c50a7ba754ac112fce20dac9b42aa1e45dfc9ab43b0662855ffed1f5426584f99574f559fb618dedd50875c2875d430a57343411c626c91637236c1e27a26a67",
+            "seqno": 187674
+        },
+        "service": {
+            "hostname": "blog.gladis.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1427911163,
+    "expire_in": 157680000,
+    "prev": "f8f2b6084d66b070765a1fbc95c34051a1ce37de105790b0dbfab6944c1b2b74",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkn1QFkUcx4EkgeZRG3IgI6VLZmjCh9u73ds7ekHQTEUmymCkBp+5vdt7vHx4
+7vGehzcRX4YEzERTtHCwKEaedGBGVFRQcQIT36YcnbSkiJymfKipxsQHtKw7hybd
+P3b25fP77ve7u1scD0VERTYM7DlGE+p8kedCJCI/CdypZIihVjAZlYzi0ak3YI+8
+cjFlMpjltILIfurUjWSvoVLnW/7kcSaNKaWmXze8FsU6sRMzVWk2bhdrutdNTZ+p
+21oMryKoiphVeI5AjEVO0xAGhJegSmSJKAICWLT2Lcllhj/wwKnMPU2XrlqrEpyb
+nSVlz7mPL7m3IbIYY57HFCEeIAgx4iRZEyjLIYggkGzQT83xSMvKik1DWU5N23Ax
+NZd7qMs0jHuplYBuMwByWAKA5ZFlSfYvs6oUxMqYyBhBWQGA0xTKsaqsSARysgwo
+RKqmSDKBPGEFgRMR0jSqAg1BTkAi1CQJYaghJGlEAKJKVRWxIkYKZ3Uq5FkZYR7y
+EABF4ARFAgKPOV5QAOWwzAmygK0MfrrCa1jmRCxgWGXPzVJdobZv+97G4xGP4Xa6
+PbKq+52G6bbqfKYRMBTDY2cPBHwZdu5Ahc+GO8oocY3ruIjuVa2Hu/9lgYU+eCeW
+szSGlvt0k7p0m0BYEFmr2efQUktTEzWOCKwIVUEgLGaxgGSgEUVCCg9ZBGSgUB6r
+FLAISyxhVaLJRJAgVADhCIb/J4WWT9ltSfp1t1cOlJiUqdoQlTQhIjIq4uHoKPvr
+RsTFTvnvP7e8P/mfovCNp8qZfevTFjVXztveGr1u1UD1r4m/tRd51cVzR2O0mdMe
+PV3e/vIz7x3uP71vf1tuWUrgxM+lzceO93clVL0ZGunKLEw89bj4+fwjQxvCMO74
+d11rG5bcHN2yY0HMitax6NTMrOfbY11LPUPdTX35r+t7vuj88LnaizV9KdtCRScv
+h+KT5oa6wtFiXk780OaG2xP9k/0FmdPZi+a2ww2+oG8/rSxwnb05bdTXEZizYM2V
+6uDZzKjbh/CpbV/+WX/wfEdP0+zwN3rCi27+pZ2HGx0/5n/d3vs2GeyM7+0vNDy9
+MxdeWhW/qqQ7Q1XY5B/O1Uxt6D4/YyhUnLJ76Zrd81sO5M1+4W5uMojL2Zs9UlE7
+SDKzW975q3N1/7zKMxO6F0dmhzNiaxy/72KNXdVtobbYowvv/HJhI5oV89milXtr
+0/842pg71p3/Wl30pzumt57vKTxpLnls6KMTW0ZbruYIZ2Z81RHOGgymPjv78vWr
+r+Q43OymO7npPWUMF2xuXt8UcYOFiqOuJKwmplwJxl1CW+XMutSDeWfWrakrnnTg
+70c+vl27Uhp+deLGd7NaD+HrdWvb3nj6wsAHJ2etXvDktU0ZIwnOLiN5qmOsenO9
+0d+p9anXqrOGTxc9USM5vi24G56cGKyfNFi9s/HWlFu528+uEINHQOPMrVPb0n6K
+mzic9MlQekVa0/dT/gU=
+=TsYN
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hwmrocker
+
+==================================================================
