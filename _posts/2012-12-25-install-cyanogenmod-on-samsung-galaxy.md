@@ -41,7 +41,7 @@ press vol down + center + power for 10 sec to enter odin mode
 extract the recover.img if the rommanager was delivered as a rar file and flash the recovery loader:
 
 {% highlight bash %}
-hamdall --flash recover.img --no-reboot
+heimdall --flash recover.img --no-reboot
 {% endhighlight %}
 
 after the progress bar is full, diconnect the device and remove the battery or the image
