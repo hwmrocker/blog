@@ -1,8 +1,9 @@
 name: blog.gladis.org
 description: Stuff I don't want to look up anymore
 url: http://blog.gladis.org
-markdown: redcarpet
-highlighter: pygments
+# markdown: redcarpet
+# highlighter: pygments
 paginate: 10
 paginate_path: "/page:num"
 future: false
+gems: [jekyll-paginate]
