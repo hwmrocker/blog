@@ -5,7 +5,7 @@ date: 2013-06-28
 comments: false
 categories:
  - programming
- - Python
+ - python
  - pitfalls
  - indexing
 ---

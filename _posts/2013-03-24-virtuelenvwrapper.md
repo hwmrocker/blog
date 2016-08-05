@@ -7,7 +7,7 @@ categories:
  - programming
  - linux
  - ubuntu
- - Python
+ - python
  - virtualenv
 ---
 

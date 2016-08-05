@@ -4,7 +4,7 @@ layout: post
 categories:
  - linux
  - funtoo
- - python3
+ - python 3
 ---
 
 insert the following line into /etc/make.conf
